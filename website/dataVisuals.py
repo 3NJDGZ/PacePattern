@@ -1,7 +1,6 @@
 # import necessary modules
 from flask import render_template
 from website.baseView import baseView
-from stravalib import Client
 from website.cachingService.cachingSystem import CachingSystem
 from website.client.GarminUserClient import GarminUserClient
 import matplotlib

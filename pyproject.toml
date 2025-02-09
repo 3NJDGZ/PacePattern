@@ -1,0 +1,25 @@
+[project]
+name = "rdat"
+version = "0.1.0"
+description = "dependencies"
+authors = [
+    {name = "Alejandro.DGZ",email = "3NJDEGUZMAN@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flask (>=3.1.0,<4.0.0)",
+    "stravalib (>=2.2,<3.0)",
+    "garminconnect (>=0.2.25,<0.3.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "numpy (>=2.2.2,<3.0.0)",
+    "redis (>=5.2.1,<6.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
